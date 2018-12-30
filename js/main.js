@@ -1,35 +1,35 @@
-var test = 10; //wala 3andi variables test valuer 10;
-test = 121; // test walet 121
-test = test + 10 // test walet 131
-test = test - 10
-test = test * 10
-test = test / 10 
-test = test % 10
+var element = document.querySelector('#hedha').style.backgroundColor = "blue";
+var element = document.querySelector('#hedha').style.fontSize = "2em";
+var element = document.querySelector('#haha').setAttribute("src","http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Pomeranian-1.jpg")
+var element = document.querySelector('#hi').innerHTML = "ssss";
 
-var alpha = 4
+console.log(document.getElementById("aa").options[document.getElementById("aa").selectedIndex].value);
+console.log(document.getElementById("ii").options[document.getElementById("ii").selectedIndex].value);
+function weight(){
+    document.getElementById("jj").style.fontWeight='bold';
+}
+function Style(){
+    document.getElementById("jj").style.fontStyle='italic';
+}
+function textDecoration(){
+    document.getElementById("jj").style.textDecoration = 'underline';
+}
+function couleur (){
+    var x=document.getElementById("aa");
+    document.getElementById("jj").style.color=x.options[x.selectedIndex].value;
+}
 
-test = test + alpha // 131 + 4 = 135
-function yo(){
-    alert('yo');
+function taille (){
+    var y=document.getElementById("ii")
+    document.getElementById("jj").style.fontSize=y.options[y.selectedIndex].value;
 }
 
 
-setTimeout(yo,2000)
 
-alert("ahla bik")
-var name = prompt("what's your name?")
-alert('marihba bik' + name );
-alert(confirm("can i have your name?"));
-var element = document.querySelector('h1');
-element.style.backgroundColor = "red";
-element.style.fontsize="40px";
-var element = document.querySelector('#hedha').setAttribute("id","http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Pomeranian-1.jpg")
-document.getElemementbyid("hello").innerHTML ="just lose it";
 
-function Test(){
-    i=0;
-    setInterval(function(){
-        alert(i);
-        i=i+1
-    },2000);
-}
+
+
+
+
+
+
